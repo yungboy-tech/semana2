@@ -1,0 +1,232 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+/* MENU */
+
+.flex-container{
+    background-color:#36dbe6a8;
+    width: 100%;
+    padding: 0px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-nav{
+    display: flex;
+}
+
+
+.menu-nav a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    padding: 30px 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-nav a:hover{
+    background-color: whitesmoke;
+}
+
+/* CAPA */
+
+.capa{
+    background-image: url(../img/1755.jpg);
+    min-height: 100vh;
+    background-size: cover;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.capa h1{
+    font-size: 70px;
+    max-width: 500px;
+    text-shadow: 3px 3px #000000;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.capa h2{
+    max-width: 500px;
+    font-size: 30px;
+    margin-top: 0;
+    border-top: 1px solid #ffffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.capa .botao{
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.capa .botao:hover{
+    background-color: aqua;
+    border: 0px;
+}
+
+/* PROJETO */
+
+.projeto{
+    display: flex;
+    width: 100%;
+    padding: 30px 0px 20px 0px;
+
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 195, 255, 0.315);
+
+    flex-wrap: wrap;
+}
+
+.projeto h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.sobre-projeto{
+    flex: 50%;
+    padding: 0px 50px;
+}
+
+.sobre-projeto h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.sobre-projeto p{
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.video{
+    flex: 50%;
+    padding: 0px 50px;
+}
+
+.video iframe{
+    width: 100%;
+}
+
+/* CARD */
+
+.card-group{
+    display: flex;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 10px;
+} 
+
+.card-group h5{
+    font-family: 'Roboto', sans-serif;
+}
+
+.card{
+    box-shadow: 2px 3px 3px #00000023;
+}
+
+/* SOLUÇÃO */
+
+.situacao{
+    display: flex;
+    width: 100%;
+    padding: 30px 0px 20px 0px;
+
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(17, 105, 139, 0.288);
+
+    flex-wrap: wrap;
+}
+
+.situacao-atual{
+    flex: 50%;
+    padding: 0px 50px;
+}
+
+.situacao-atual h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.situacao-atual p{
+    text-align: justify;
+    line-height: 1.4;
+}
+
+
+
+/* ECOLOGICO */
+
+.ecologico{
+    display: flex;
+    width: 100%;
+    padding: 30px 0px 20px 0px;
+
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 182, 47, 0.219);
+  
+    flex-wrap: wrap;
+}
+
+.eco{
+    flex: 50%;
+    padding: 0px 50px;
+}
+
+.eco h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.eco p{
+    text-align: justify;
+    line-height: 1.4;
+}
+
+/* SOLUCOES */
+
+.solucoes{
+    display: flex;
+    width: 100%;
+    padding: 30px 0px 20px 0px;
+
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(80, 151, 245, 0.267);
+
+    flex-wrap: wrap;
+}
+
+.solucao{
+    flex: 50%;
+    padding: 0px 50px;
+}
+
+.solucao h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.solucao p{
+    text-align: justify;
+    line-height: 1.4;
+}
